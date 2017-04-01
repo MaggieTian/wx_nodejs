@@ -194,7 +194,7 @@ module.exports = function(app)
 
 
     });
-    app.get("/index",function (req,res) {
+    app.get("https://53054300.qcloud.la/index",function (req,res) {
         res.send("hello world!");
 
     })
